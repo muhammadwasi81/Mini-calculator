@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(57, 56, 74);
+    background-size: 1500px;
+    
+  }
+  #calculator {
+    width: 250px;
+    height: 375px;
+    text-align: center;
+    margin: 90px auto;
+    box-shadow: 10px 10px 10px #010012;
+    background-color: rgb(41, 88, 104);
+    background-size: 7px;
+    border-radius: 30px;
+    border: 2px white solid;
+  }
+  .display {
+    margin:30px 0 20px 0;
+    padding-right: 2%;
+    width: 220px;
+    height: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px white;
+    text-align: right;
+    font: 27px bold;
+    color: #8cb6ce;
+    background-color: rgb(0, 50, 68);
+  }
+  #keys {
+    width: 43px;
+    height: 35px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px #010012;
+    cursor: pointer;
+    font-style: italic;
+    color: lightblue;
+    background-color: rgb(0, 50, 68);
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 4px;
+  }
+  #keys:hover {
+    background: #1998cd;
+    font-weight: bold;
+    color: #1e185e;
+  }
+  #keysC {
+    width: 43px;
+    height: 35px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px skyblue;
+    cursor: pointer;
+    font-style: italic;
+    color: #1e185e;
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  #keysC:hover {
+    background: rgb(59, 118, 165);
+    font-weight: bold;
+    color: rgb(185, 197, 206);
+  }
+  #equal {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #010012;
+    cursor: pointer;
+    color: lightblue;
+    background-color: rgb(5, 55, 91);
+    border-radius: 4px;
+    font-size: 30px;
+  }
+  #equal:hover {
+    background: rgb(59, 118, 165);
+    color: rgb(18, 37, 43);
+  }

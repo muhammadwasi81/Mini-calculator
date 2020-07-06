@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grey calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <!-- Start of calculator -->
+    <div id="calculator">
+          
+          <input type="text" class="display" id="result"></br> 
+          <button id="keysC" onclick="clearResult()">C</button>
+          <button id="keysC" onclick="back()">CE</button>
+          <button id="keysC" onclick="square()">X2</button>
+          <button id="keysC" onclick="getNumber('+')">+</button></br>
+         
+          <button id="keys" onclick="getNumber('9')">9</button>
+          <button id="keys" onclick="getNumber('8')">8</button>
+          <button id="keys" onclick="getNumber('7')">7</button>
+          <button id="keysC" onclick="getNumber('-')">-</button></br>
+
+          <button id="keys" onclick="getNumber('6')">6</button>
+          <button id="keys" onclick="getNumber('5')">5</button>
+          <button id="keys" onclick="getNumber('4')">4</button>
+          <button id="keysC" onclick="getNumber('*')">x</button></br>
+
+          <button id="keys" onclick="getNumber('3')">3</button>
+          <button id="keys" onclick="getNumber('2')">2</button>
+          <button id="keys" onclick="getNumber('1')">1</button>
+          <button id="keysC" onclick="getNumber('/')">&#247</button></br>
+        
+
+          <button id="keys" onclick="getNumber('0')">0</button>
+          <button id="keys" onclick="getNumber('.')">.</button>
+          <button id="equal" onclick="getResult()">=</button></br>
+          <p style="font-size: 30px; color: lightblue; ;">Developer: Muhammad wasi</p>
+        </div>
+
+    <!-- end of body of calculator -->
+
+
+</body>
+<script src="app.js"></script>
+</html>
